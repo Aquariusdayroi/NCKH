@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>screen2</class>
+ <widget class="QMainWindow" name="screen2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 170, 127);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton2_1">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>390</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(149, 255, 120);</string>
+    </property>
+    <property name="text">
+     <string>QUAY LẠI</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(218, 218, 218);</string>
+    </property>
+    <row>
+     <property name="text">
+      <string>Thùng phá sảnh</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Tứ quý</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Cù lũ</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Thùng</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Sảnh</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Xám chi</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Thú</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Đôi</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Mậu thầu</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Ý NGHĨA</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>VÍ DỤ</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>5 lá bài đồng chất, cùng một chuỗi số</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>Q♣ J♣ 10♣ 9♣ 8♣</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>4 lá đồng số</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>A♥ A♦ A♠ A♣</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>Một bộ ba và một bộ đôi</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>K♣ K♠ K♦ 9♥ 9♣</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>Các lá bài đồng chất</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>7♠ Q♠ 10♠ K♠ A♠</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>Cáclá bài trong một chuỗi số</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>J♠ 10♦ 9♥ 8♣ 7♥</string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>Ba lá bài đồng số</string>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string>Q♣ Q♥ Q♠</string>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string>Hai đôi</string>
+     </property>
+    </item>
+    <item row="6" column="1">
+     <property name="text">
+      <string>J♦ J♠ 8♣ 8♠</string>
+     </property>
+    </item>
+    <item row="7" column="0">
+     <property name="text">
+      <string>Hai lá bài đồng số</string>
+     </property>
+    </item>
+    <item row="7" column="1">
+     <property name="text">
+      <string>10♣ 10♥</string>
+     </property>
+    </item>
+    <item row="8" column="0">
+     <property name="text">
+      <string>Không có liên kết nào với các lá bài khác</string>
+     </property>
+    </item>
+    <item row="8" column="1">
+     <property name="text">
+      <string>A♠10♥8♠Q♣ K♠</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

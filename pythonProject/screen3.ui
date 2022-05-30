@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>screen3</class>
+ <widget class="QMainWindow" name="screen3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 170, 127);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Rút 5 lá</string>
+     </attribute>
+     <widget class="QTableWidget" name="table1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>360</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(218, 218, 218);</string>
+      </property>
+      <row>
+       <property name="text">
+        <string>Thùng phá sảnh</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Tứ quý</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Cù lũ</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Thùng</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Sảnh</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Xám chi</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Thú</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Đôi</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Mậu thầu</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>SỐ BIẾN CỐ(  Ω=2598960 )</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>XÁC SUẤT</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>40</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>0.00154%</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>624</string>
+       </property>
+      </item>
+      <item row="1" column="1">
+       <property name="text">
+        <string>0.024%</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>3744</string>
+       </property>
+      </item>
+      <item row="2" column="1">
+       <property name="text">
+        <string>0.144%</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>5108</string>
+       </property>
+      </item>
+      <item row="3" column="1">
+       <property name="text">
+        <string>0.197%</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>10200</string>
+       </property>
+      </item>
+      <item row="4" column="1">
+       <property name="text">
+        <string>0.393%</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>54912</string>
+       </property>
+      </item>
+      <item row="5" column="1">
+       <property name="text">
+        <string>2.1129%</string>
+       </property>
+      </item>
+      <item row="6" column="0">
+       <property name="text">
+        <string>123552</string>
+       </property>
+      </item>
+      <item row="6" column="1">
+       <property name="text">
+        <string>4.754%</string>
+       </property>
+      </item>
+      <item row="7" column="0">
+       <property name="text">
+        <string>1098240</string>
+       </property>
+      </item>
+      <item row="7" column="1">
+       <property name="text">
+        <string>42.257%</string>
+       </property>
+      </item>
+      <item row="8" column="0">
+       <property name="text">
+        <string>1302540</string>
+       </property>
+      </item>
+      <item row="8" column="1">
+       <property name="text">
+        <string>50.118%</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Rút 4 lá</string>
+     </attribute>
+     <widget class="QTableWidget" name="table1_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>360</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(218, 218, 218);</string>
+      </property>
+      <row>
+       <property name="text">
+        <string>Thùng phá sảnh</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Tứ quý</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Cù lũ</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Thùng</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Sảnh</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Xám chi</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Thú</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Đôi</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Mậu thầu</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>SỐ BIẾN CỐ(  Ω=270725 )</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>XÁC SUẤT</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>44</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>0.0163%</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>13</string>
+       </property>
+      </item>
+      <item row="1" column="1">
+       <property name="text">
+        <string>0.0048%</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="2" column="1">
+       <property name="text">
+        <string>0%</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>2816</string>
+       </property>
+      </item>
+      <item row="3" column="1">
+       <property name="text">
+        <string>1.04%</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>2772</string>
+       </property>
+      </item>
+      <item row="4" column="1">
+       <property name="text">
+        <string>1.024%</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>2496</string>
+       </property>
+      </item>
+      <item row="5" column="1">
+       <property name="text">
+        <string>0.922%</string>
+       </property>
+      </item>
+      <item row="6" column="0">
+       <property name="text">
+        <string>2808</string>
+       </property>
+      </item>
+      <item row="6" column="1">
+       <property name="text">
+        <string>1.037%</string>
+       </property>
+      </item>
+      <item row="7" column="0">
+       <property name="text">
+        <string>82368</string>
+       </property>
+      </item>
+      <item row="7" column="1">
+       <property name="text">
+        <string>30.425%</string>
+       </property>
+      </item>
+      <item row="8" column="0">
+       <property name="text">
+        <string>177408</string>
+       </property>
+      </item>
+      <item row="8" column="1">
+       <property name="text">
+        <string>65.5307%</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Rút 3 lá</string>
+     </attribute>
+     <widget class="QTableWidget" name="table1_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>360</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(218, 218, 218);</string>
+      </property>
+      <row>
+       <property name="text">
+        <string>Thùng phá sảnh</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Tứ quý</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Cù lũ</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Thùng</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Sảnh</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Xám chi</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Thú</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Đôi</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Mậu thầu</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>SỐ BIẾN CỐ(  Ω=22100 )</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>XÁC SUẤT</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>48</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>0.217%</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="1" column="1">
+       <property name="text">
+        <string>0%</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="2" column="1">
+       <property name="text">
+        <string>05</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>1096</string>
+       </property>
+      </item>
+      <item row="3" column="1">
+       <property name="text">
+        <string>4.96%</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>720</string>
+       </property>
+      </item>
+      <item row="4" column="1">
+       <property name="text">
+        <string>3.258%</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>52</string>
+       </property>
+      </item>
+      <item row="5" column="1">
+       <property name="text">
+        <string>0.235%</string>
+       </property>
+      </item>
+      <item row="6" column="0">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item row="6" column="1">
+       <property name="text">
+        <string>0%</string>
+       </property>
+      </item>
+      <item row="7" column="0">
+       <property name="text">
+        <string>3744</string>
+       </property>
+      </item>
+      <item row="7" column="1">
+       <property name="text">
+        <string>16.94%</string>
+       </property>
+      </item>
+      <item row="8" column="0">
+       <property name="text">
+        <string>16440</string>
+       </property>
+      </item>
+      <item row="8" column="1">
+       <property name="text">
+        <string>74.389%</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton3_1">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>410</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(149, 255, 120);</string>
+    </property>
+    <property name="text">
+     <string>QUAY LẠI</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
